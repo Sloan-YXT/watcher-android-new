@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp"
+    app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/board_data_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="标题"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:background="#FF0000"
+            ></TextView>
+        <TextView
+            android:id="@+id/board_data_item_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动作"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/board_data_item_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:text="时间"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/board_data_item_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:text="地点"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/board_data_item_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="温度"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/board_data_item_humi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="湿度"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/board_data_item_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="光度"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/board_data_item_smoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="烟雾"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

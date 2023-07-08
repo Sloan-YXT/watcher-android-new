@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/snow"
+    tools:context="com.watcher.ffplayer.AlarmActivity">
+
+    <TextView
+        android:id="@+id/alarm_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="board name"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:background="@color/gold"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/alarm_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="position"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:background="@color/gold"
+        android:textStyle="bold" />
+    <ListView
+        android:id="@+id/alarms"
+        android:layout_marginTop="10dp"
+        android:background="@color/snow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@drawable/divider_horizontal_timeline"
+        android:dividerHeight="1.0dip"
+        android:fastScrollEnabled="true"
+        android:focusable="true"
+        android:listSelector="@drawable/list_item" />
+</LinearLayout>

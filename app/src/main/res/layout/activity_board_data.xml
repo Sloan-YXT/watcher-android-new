@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.watcher.ffplayer.BoardDataActivity">
+        <ListView
+            android:id="@+id/board_data_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@drawable/divider_horizontal_timeline"
+            android:dividerHeight="1.0dip"
+            android:fastScrollEnabled="true"
+            android:focusable="true"
+            android:listSelector="@drawable/list_item" />
+</LinearLayout>
